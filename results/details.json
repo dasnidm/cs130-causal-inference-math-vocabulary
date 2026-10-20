@@ -1,0 +1,13 @@
+{
+  "data_url": "https://raw.githubusercontent.com/jzangela/WSCdata/6360a5247567c0ff632cd12aa2f6b3cfff92b2b6/data-raw/df2200_cleaned.csv",
+  "sha256": "cc67f453da430840a2262538ca8ba14cf2fc49bc10050225d570d649dca8cdaf",
+  "rule": "Observational point estimate lies inside the experimental benchmark's 95% t interval.",
+  "plan_commit": "6c2cdb3e1ce35ce5071c343a72e28f44a26b66f8",
+  "naive_observational_difference": 3.4505601455188355,
+  "unadjusted_selection_bias_term": 2.6558784144146905,
+  "specifications": {
+    "1. Demographics": "mathPost ~ mathGrp + female + white + black + asian + hisp + married + logAge + income + collegeS + collegeM + collegeD",
+    "2. Plus pretests": "mathPost ~ mathGrp + female + white + black + asian + hisp + married + logAge + income + collegeS + collegeM + collegeD + mathPre + vocabPre",
+    "3. Full baseline": "mathPost ~ mathGrp + female + white + black + asian + hisp + married + logAge + income + collegeS + collegeM + collegeD + mathPre + vocabPre + calc + logBooks + mathLike + big5O + big5C + big5E + big5A + big5N + AMAS + logBDI + MCS + GSES"
+  }
+}
